@@ -1,0 +1,26 @@
+body {
+  font: 10px sans-serif;
+}
+
+.graph-container{
+  margin: 30px auto 0;
+  background: #f0fffa;
+}
+
+.axis path, .axis line{
+  fill: none;
+  stroke: #777;
+  shape-rendering: crispEdges;
+}
+
+.axis line{
+  stroke-width: 2px;
+}
+
+.axis text{
+  font-family: 'Arial';
+  font-size: 13px;
+}
+
+.tick{ stroke-dasharray: 1, 2; }
+.bar{ fill: FireBrick; }
